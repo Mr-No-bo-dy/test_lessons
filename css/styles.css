@@ -1,0 +1,90 @@
+* {
+   margin: 0;
+   box-sizing: border-box;
+}
+
+body {
+   margin: 0;
+   cursor: url(../images/cursor.cur), default;
+}
+
+a {
+   cursor: url(../images/cursor_p.cur), pointer;
+}
+
+.flex {
+   width: 250px;
+   height: 250px;
+   background-color: yellow;
+   border: 3px solid red;
+   display: flex;
+   align-items: start;
+   flex-wrap: wrap;
+   border-top-style: solid;
+   border-bottom-style: dashed;
+   border-right-color: #000;
+   border-radius: 10px 20px 30px 50px / 5px 15px 35px 65px;
+}
+
+.bg {
+   min-height: 50px;
+   min-width: 50px;
+   background-color: blue;
+   border: 3px solid red;
+}
+
+.parent {
+   width: 200px;
+   height: 200px;
+   border: 1px solid #000;
+   background-color: orange;
+   background-image: url();
+}
+
+ul {
+   padding: 0;
+   list-style: none;
+}
+
+.parent p {
+   min-width: 300px;
+}
+
+
+.test p {
+   max-width: 500px;
+}
+
+p {
+   background-color: lightsteelblue;
+   padding: 5px 10px;
+   margin: 20px 10px;
+}
+
+body div p {
+   margin: 30px 0;
+}
+
+body .test .par {
+   margin: 15px;
+}
+
+.test p {
+   margin: 0 8px;
+}
+
+#paragr {
+   margin: 14px 0;
+}
+
+.Button {
+   display: inline-block !important;
+   padding: 20px;
+   text-decoration: none;
+   background-color: lightblue;
+   border: 1px solid #000;
+}
+
+#pa {
+   margin: 20px;
+}
