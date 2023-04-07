@@ -23,7 +23,7 @@ a {
    border-top-style: solid;
    border-bottom-style: dashed;
    border-right-color: #000;
-   border-radius: 10px 20px 30px 50px / 5px 15px 35px 65px;
+   border-radius: 10px;
 }
 
 .bg {
