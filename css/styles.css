@@ -17,8 +17,6 @@ a {
    background-color: yellow;
    border: 3px solid red;
    display: flex;
-   align-items: start;
-   flex-wrap: wrap;
    border-top-style: solid;
    border-bottom-style: dashed;
    border-right-color: #000;
