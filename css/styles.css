@@ -67,7 +67,7 @@ div .par {
 }
 
 
-/* #paragr {
+#paragr {
    margin: 14px 0;
 }
 
@@ -86,7 +86,7 @@ div .par {
 
 #pa {
    margin: 20px;
-} */
+}
 
 .flx {
    display: flex;
