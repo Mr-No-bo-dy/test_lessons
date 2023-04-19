@@ -3,6 +3,10 @@
    box-sizing: border-box;
 }
 
+ul {
+   list-style: none;
+}
+
 body {
    cursor: url(../images/cursor.cur), default;
 }
@@ -12,22 +16,22 @@ a {
 }
 
 .flex {
+   display: flex;
    width: 550px;
    height: 250px;
-   background-color: yellow;
+   color: #a12afd;
+   background-color: #afdafd;
    border: 3px solid red;
+}
+
+.media {
    display: flex;
-   justify-content: space-evenly;
-   /* flex-wrap: wrap; */
-   /* border-top-style: solid;
-   border-bottom-style: dashed;
-   border-right-color: #000;
-   border-radius: 10px; */
+   justify-content: center;
 }
 
 .bg {
-   height: 50px;
-   width: 50px;
+   height: 100px;
+   width: 100px;
    background-color: blue;
    border: 3px solid red;
 }
