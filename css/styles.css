@@ -16,17 +16,19 @@ a {
 }
 
 .flex {
-   display: flex;
-   width: 550px;
+   width: 250px;
    height: 250px;
-   color: #a12afd;
-   background-color: #afdafd;
+   background-color: yellow;
    border: 3px solid red;
    column-gap: 20px;
 }
 
 .media {
    display: flex;
+   border-top-style: solid;
+   border-bottom-style: dashed;
+   border-right-color: #000;
+   border-radius: 10px;
    justify-content: center;
 }
 
