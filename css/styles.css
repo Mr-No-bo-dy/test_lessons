@@ -22,6 +22,7 @@ a {
    color: #a12afd;
    background-color: #afdafd;
    border: 3px solid red;
+   column-gap: 20px;
 }
 
 .media {
@@ -30,7 +31,7 @@ a {
 }
 
 .bg {
-   height: 100px;
+   height: 20px;
    width: 100px;
    background-color: blue;
    border: 3px solid red;
