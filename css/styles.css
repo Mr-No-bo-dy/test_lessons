@@ -54,7 +54,6 @@ ul {
    min-width: 300px;
 }
 
-
 p {
    background-color: lightsteelblue;
    margin: 20px 10px;
@@ -67,10 +66,10 @@ body div p {
 .test p {
    margin: 0 8px;
 }
+
 div .par {
    margin: 15px;
 }
-
 
 #paragr {
    margin: 14px 0;
@@ -81,8 +80,6 @@ div .par {
 }
 
 .Button {
-   display: inline-block !important;
-   overflow: auto !important;
    padding: 20px;
    text-decoration: none;
    background-color: lightblue;
