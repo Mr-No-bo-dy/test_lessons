@@ -27,7 +27,10 @@ a {
 
 .media {
    display: flex;
-   justify-content: center;
+   border-top-style: solid;
+   border-bottom-style: dashed;
+   border-right-color: #000;
+   border-radius: 10px;
 }
 
 .bg {
@@ -41,7 +44,7 @@ a {
    width: 200px;
    height: 200px;
    border: 1px solid #000;
-   background-color: orange;
+   background-color: rgb(250, 184, 63);
    background-image: url();
 }
 
