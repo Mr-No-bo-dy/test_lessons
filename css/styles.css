@@ -3,6 +3,10 @@
    box-sizing: border-box;
 }
 
+ul {
+   list-style: none;
+}
+
 body {
    cursor: url(../images/cursor.cur), default;
 }
@@ -12,22 +16,23 @@ a {
 }
 
 .flex {
-   width: 250px;
-   height: 250px;
-   background-color: yellow;
-   border: 3px solid red;
    display: flex;
-   align-items: start;
-   flex-wrap: wrap;
-   border-top-style: solid;
-   border-bottom-style: dashed;
-   border-right-color: #000;
-   border-radius: 10px;
+   width: 550px;
+   height: 250px;
+   color: #a12afd;
+   background-color: #afdafd;
+   border: 3px solid red;
+   column-gap: 20px;
+}
+
+.media {
+   display: flex;
+   justify-content: center;
 }
 
 .bg {
-   min-height: 50px;
-   min-width: 50px;
+   height: 20px;
+   width: 100px;
    background-color: blue;
    border: 3px solid red;
 }
@@ -36,8 +41,7 @@ a {
    width: 200px;
    height: 200px;
    border: 1px solid #000;
-   background-color: rgb(250, 184, 63);
-   background-image: url();
+   background-color: orange;
 }
 
 ul {
@@ -58,20 +62,23 @@ body div p {
    margin: 30px 0;
 }
 
-body .test .par {
-   margin: 15px;
-}
-
 .test p {
    margin: 0 8px;
+}
+
+div .par {
+   margin: 15px;
 }
 
 #paragr {
    margin: 14px 0;
 }
 
+#par {
+   margin: 42px;
+}
+
 .Button {
-   display: inline-block !important;
    padding: 20px;
    text-decoration: none;
    background-color: lightblue;
@@ -80,4 +87,9 @@ body .test .par {
 
 #pa {
    margin: 20px;
+}
+
+.flx {
+   display: flex;
+   justify-content: center;
 }
