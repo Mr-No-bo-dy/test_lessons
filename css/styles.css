@@ -44,16 +44,3 @@ ul {
    padding: 0;
    list-style: none;
 }
-
-.test p {
-   max-width: 500px;
-}
-
-p {
-   background-color: lightsteelblue;
-   margin: 20px 10px;
-}
-
-body div p {
-   margin: 30px 0;
-}
