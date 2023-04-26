@@ -19,18 +19,18 @@ a {
    display: flex;
    width: 500px;
    height: 500px;
-   background-color: yellow;
+   background-color: rgb(253, 253, 57);
    border: 3px solid red;
    flex-direction: column-reverse;
 }
 
 .bg {
    color: #fff;
-   font-size: 24px;
+   font-size: 26px;
    height: 100px;
    width: 100px;
-   background-color: blue;
-   border: 3px solid red;
+   background-color: rgb(95, 95, 255);
+   border: 2px dashed red;
 }
 
 .parent {
@@ -51,9 +51,9 @@ ul {
 
 p {
    background-color: #353;
-   margin: 20px 10px;
+   margin: 10px 10px;
 }
 
 .lorem {
-   font-size: 13px;
+   font-size: 1.5em;
 }
