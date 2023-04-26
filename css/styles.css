@@ -11,26 +11,21 @@ body {
    cursor: url(../images/cursor.cur), default;
 }
 
-a {
-   cursor: url(../images/cursor_p.cur), pointer;
-}
-
 .flex {
    display: flex;
    width: 500px;
    height: 500px;
-   background-color: yellow;
+   background-color: rgb(253, 253, 57);
    border: 3px solid red;
-   flex-direction: column-reverse;
 }
 
 .bg {
    color: #fff;
-   font-size: 24px;
+   font-size: 26px;
    height: 100px;
    width: 100px;
-   background-color: blue;
-   border: 3px solid red;
+   background-color: rgb(95, 95, 255);
+   border: 2px dashed red;
 }
 
 .parent {
@@ -47,8 +42,9 @@ ul {
 
 p {
    background-color: #533;
+   margin: 10px 0;
 }
 
 .lorem {
-   font-size: 12px;
+   font-size: 13px;
 }
