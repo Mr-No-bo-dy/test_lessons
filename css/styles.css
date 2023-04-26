@@ -11,17 +11,12 @@ body {
    cursor: url(../images/cursor.cur), default;
 }
 
-a {
-   cursor: url(../images/cursor_p.cur), pointer;
-}
-
 .flex {
    display: flex;
    width: 500px;
    height: 500px;
    background-color: rgb(253, 253, 57);
    border: 3px solid red;
-   flex-direction: column-reverse;
 }
 
 .bg {
