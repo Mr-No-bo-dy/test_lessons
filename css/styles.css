@@ -57,19 +57,3 @@ p {
 body div p {
    margin: 30px 0;
 }
-
-.test p {
-   margin: 0 8px;
-}
-
-div .par {
-   margin: 15px;
-}
-
-#paragr {
-   margin: 14px 0;
-}
-
-#par {
-   margin: 42px;
-}
