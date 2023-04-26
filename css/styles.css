@@ -50,10 +50,10 @@ ul {
 }
 
 p {
-   background-color: lightsteelblue;
+   background-color: #353;
    margin: 20px 10px;
 }
 
-body div p {
-   margin: 30px 0;
+.lorem {
+   font-size: 13px;
 }
