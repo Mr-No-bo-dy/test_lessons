@@ -16,24 +16,18 @@ a {
 }
 
 .flex {
-   width: 250px;
-   height: 250px;
+   display: flex;
+   width: 500px;
+   height: 500px;
    background-color: yellow;
    border: 3px solid red;
-   column-gap: 20px;
-}
-
-.media {
-   display: flex;
-   border-top-style: solid;
-   border-bottom-style: dashed;
-   border-right-color: #000;
-   border-radius: 10px;
-   justify-content: center;
+   flex-direction: column-reverse;
 }
 
 .bg {
-   height: 20px;
+   color: #fff;
+   font-size: 24px;
+   height: 100px;
    width: 100px;
    background-color: blue;
    border: 3px solid red;
@@ -78,20 +72,4 @@ div .par {
 
 #par {
    margin: 42px;
-}
-
-.Button {
-   padding: 20px;
-   text-decoration: none;
-   background-color: lightblue;
-   border: 1px solid #000;
-}
-
-#pa {
-   margin: 20px;
-}
-
-.flx {
-   display: flex;
-   justify-content: center;
 }
