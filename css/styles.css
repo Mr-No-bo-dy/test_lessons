@@ -45,15 +45,10 @@ ul {
    list-style: none;
 }
 
-.test p {
-   max-width: 500px;
-}
-
 p {
-   background-color: #353;
-   margin: 20px 10px;
+   background-color: #533;
 }
 
 .lorem {
-   font-size: 13px;
+   font-size: 12px;
 }
