@@ -28,17 +28,5 @@ body {
    height: 100px;
    width: 100px;
    background-color: blue;
-   border: 3px solid red;
-}
-
-.parent {
-   width: 200px;
-   height: 200px;
-   border: 1px solid #000;
-   background-color: orange;
-}
-
-ul {
-   padding: 0;
-   list-style: none;
+   border: 2px solid red;
 }
