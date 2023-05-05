@@ -17,7 +17,7 @@ a {
 
 .flex {
    display: flex;
-   width: 550px;
+   width: 500px;
    height: 250px;
    color: #a12afd;
    background-color: #afdafd;
@@ -25,75 +25,9 @@ a {
    column-gap: 20px;
 }
 
-.media {
-   display: flex;
-   border-top-style: solid;
-   border-bottom-style: dashed;
-   border-right-color: #000;
-   border-radius: 10px;
-}
-
 .bg {
-   height: 20px;
+   height: 100px;
    width: 100px;
    background-color: blue;
    border: 3px solid red;
-}
-
-.parent {
-   width: 200px;
-   height: 200px;
-   border: 1px solid #000;
-   background-color: rgb(250, 184, 63);
-   background-image: url();
-}
-
-ul {
-   padding: 0;
-   list-style: none;
-}
-
-.parent p {
-   min-width: 300px;
-}
-
-p {
-   background-color: lightsteelblue;
-   margin: 20px 10px;
-}
-
-body div p {
-   margin: 30px 0;
-}
-
-.test p {
-   margin: 0 8px;
-}
-
-div .par {
-   margin: 15px;
-}
-
-#paragr {
-   margin: 14px 0;
-}
-
-#par {
-   margin: 42px;
-}
-
-.Button {
-   padding: 20px;
-   text-decoration: none;
-   background-color: lightblue;
-   border: 1px solid #000;
-}
-
-#pa {
-   margin: 20px;
-}
-
-.flx {
-   display: flex;
-   justify-content: center;
 }
