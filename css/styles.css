@@ -13,38 +13,20 @@ body {
 
 .flex {
    display: flex;
+   flex-wrap: wrap;
    width: 500px;
    height: 500px;
-   background-color: rgb(253, 253, 57);
+   background-color: yellow;
    border: 3px solid red;
+   column-gap: 10px;
+   justify-content: space-between;
 }
 
-.bg {
+.element {
    color: #fff;
-   font-size: 26px;
+   font-size: 30px;
    height: 100px;
    width: 100px;
-   background-color: rgb(95, 95, 255);
-   border: 2px dashed red;
-}
-
-.parent {
-   width: 200px;
-   height: 200px;
-   border: 1px solid #000;
-   background-color: orange;
-}
-
-ul {
-   padding: 0;
-   list-style: none;
-}
-
-p {
-   background-color: #533;
-   margin: 10px 0;
-}
-
-.lorem {
-   font-size: 13px;
+   background-color: blue;
+   border: 2px solid red;
 }
