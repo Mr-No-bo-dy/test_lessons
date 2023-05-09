@@ -20,20 +20,29 @@ body {
    height: 500px;
    background-color: yellow;
    border: 3px solid red;
+   column-gap: 20px;
 }
 
-.element {
-   color: #fff;
-   font-size: 30px;
-   height: 100px;
+.media {
+   display: flex;
+   justify-content: center;
+>>>>>>>>> Temporary merge branch 2
+}
+
+.bg {
+   height: 20px;
    width: 100px;
-   background-color: lightblue;
-   border: 2px solid red;
-   border-radius: 2px;
+   background-color: yellow;
+   border: 3px solid red;
 }
 
 .nav-menu ul {
    display: flex;
    justify-content: space-between;
    align-items: center;
+   text-align: center;
+}
+
+.nav-menu a {
+   font: 10rem/1em sans-serif;
 }
