@@ -19,7 +19,7 @@ a {
    display: flex;
    width: 500px;
    height: 250px;
-   color: #a12afd;
+   color: #000;
    background-color: #afdafd;
    border: 3px solid red;
    column-gap: 20px;
@@ -28,6 +28,6 @@ a {
 .bg {
    height: 100px;
    width: 100px;
-   background-color: blue;
+   background-color: yellow;
    border: 3px solid red;
 }
