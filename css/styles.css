@@ -13,35 +13,16 @@ body {
 
 .flex {
    display: flex;
-   justify-content: space-between;
    flex-wrap: wrap;
-   column-gap: 10px;
    width: 500px;
    height: 500px;
    background-color: yellow;
    border: 3px solid red;
-   column-gap: 20px;
-}
-
-.media {
-   display: flex;
-   justify-content: center;
 }
 
 .bg {
-   height: 20px;
+   height: 100px;
    width: 100px;
-   background-color: yellow;
+   background-color: blue;
    border: 3px solid red;
-}
-
-.nav-menu ul {
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   text-align: center;
-}
-
-.nav-menu a {
-   font: 10rem/1em sans-serif;
 }
