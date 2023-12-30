@@ -17,5 +17,10 @@
 }
 
 .block {
-    background-color:lime;
+    background-color: lime;
+}
+
+.menu {
+    font-size: 30px;
+    text-decoration: none;
 }
