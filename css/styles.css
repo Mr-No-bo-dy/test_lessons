@@ -1,18 +1,18 @@
 .socials {
-    color: greenyellow;
+    color: green;
 }
 
 .top_bl {
-    background-color: blue;
+    background-color: violet;
 }
 
 .block li {
-    font-size: 25px;
+    font-size: 15px;
 }
 
 .menu {
-    font-size: 21px;
-    text-decoration: underline;
+    font-size: 23px;
+    text-decoration: none;
 }
 
 p {
