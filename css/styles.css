@@ -2,17 +2,26 @@
     color: green;
 }
 
-.top_bl {
-    background-color: violet;
+.element {
+    width: 120px;
+    height: 120px;
+    font-size: 50px;
+    color: red;
+    background-color: lime;
+    border: 1px solid #000;
+}
+
+.top {
+    background-color: purple;
 }
 
 .block li {
-    font-size: 15px;
+    font-size: 28px;
 }
 
 .menu {
-    font-size: 23px;
-    text-decoration: none;
+    font-size: 31px;
+    text-decoration: underline;
 }
 
 p {
