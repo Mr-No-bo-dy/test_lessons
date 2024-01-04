@@ -17,16 +17,16 @@
 }
 
 .top {
-    background-color: purple;
+    background-color: blue;
 }
 
 .block li {
-    font-size: 28px;
+    font-size: 23px;
 }
 
 .menu {
-    font-size: 31px;
-    text-decoration: underline;
+    font-size: 15px;
+    text-decoration: none;
 }
 
 p {
