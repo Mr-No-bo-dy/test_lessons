@@ -11,8 +11,8 @@
     border: 1px solid #000;
 }
 
-.top_line {
-    background-color: red;
+.head {
+    background-color: yellow;
 }
 
 .block li {
