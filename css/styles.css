@@ -7,15 +7,15 @@
 }
 
 .block li {
-    font-size: 18px;
+    font-size: 25px;
 }
 
-.top_menu {
+.menu {
+    font-size: 21px;
     text-decoration: underline;
-    font-size: 27px;
 }
 
 p {
-    font-size: 15px;
+    font-size: 16px;
     color: blueviolet;
 }
