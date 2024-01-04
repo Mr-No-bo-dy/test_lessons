@@ -1,9 +1,9 @@
 .socials {
-    color: lime;
+    color: greenyellow;
 }
 
 .block {
-    background-color: yellow;
+    background-color: lightcoral;
 }
 
 .block li {
@@ -11,8 +11,8 @@
 }
 
 .nav_menu {
-    font-size: 33px;
-    text-decoration: none;
+    font-size: 31px;
+    text-decoration: underline;
 }
 
 p {
