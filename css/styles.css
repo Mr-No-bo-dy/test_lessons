@@ -20,6 +20,10 @@
     background-color: lime;
 }
 
+.block li {
+    font-size: 13px;
+}
+
 .menu {
     font-size: 33px;
     text-decoration: none;
