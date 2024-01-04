@@ -6,6 +6,10 @@
     background-color: yellow;
 }
 
+.block li {
+    font-size: 13px;
+}
+
 .nav_menu {
     font-size: 33px;
     text-decoration: none;
