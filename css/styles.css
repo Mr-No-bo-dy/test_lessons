@@ -2,17 +2,17 @@
     color: greenyellow;
 }
 
-.block {
-    background-color: lightcoral;
+.top_block {
+    background-color: lime;
 }
 
 .block li {
     font-size: 13px;
 }
 
-.nav_menu {
-    font-size: 31px;
-    text-decoration: underline;
+.menu {
+    font-size: 24px;
+    text-decoration: none;
 }
 
 p {
