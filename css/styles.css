@@ -16,16 +16,16 @@
     border: 1px solid #000;
 }
 
-.top_block {
-    background-color: blue;
+.top {
+    background-color: purple;
 }
 
 .block li {
-    font-size: 25px;
+    font-size: 28px;
 }
 
 .menu {
-    font-size: 21px;
+    font-size: 31px;
     text-decoration: underline;
 }
 
