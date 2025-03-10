@@ -1,32 +1,5 @@
-.socials {
-    color: green;
-}
-
-.element {
-    width: 120px;
-    height: 120px;
-    font-size: 50px;
-    color: red;
-    background-color: green;
-    border: 1px solid #000;
-}
-
-.head {
-    background-color: olivedrab;
-}
-
-.block li {
-    font-size: 23px;
-}
-
-.menu {
-    font-size: 12px;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-    color: blueviolet;
+ul {
+    list-style: none;
 }
 
 .about {
@@ -34,3 +7,37 @@ p {
     background-color: #2ff;
     font-size: 20px;
 }
+
+.menu a {
+    position: relative;
+    padding-left: 15px;
+}
+
+.social::before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(../images/Hata_plus_sprite.png);
+}
+
+.fb::before {
+    width: 11px;
+    height: 19px;
+    background-position: 0 -21px;
+}
+/* 
+.fb:hover::before {
+    background-position: 0 0;
+} */
+
+.tw::before {
+    width: 18px;
+    height: 15px;
+    background-position: -13px -21px;
+}
+/* 
+.tw:hover::before {
+    background-position: -13px 0;
+} */
